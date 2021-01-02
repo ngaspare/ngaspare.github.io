@@ -1,0 +1,14 @@
+{
+  "name": "ngaspare.github.io",
+  "version": "1.0.0",
+  "description": "my-responsive-website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w personal_site/scss/ -o personal_site/resources/css/ --rercursive"
+  },
+  "author": "Gašparec Nikola",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
