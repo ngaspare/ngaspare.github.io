@@ -46,6 +46,12 @@ $background-opacity: 0.9;
   }
 }
 
+@mixin mediaMobile {
+  @media screen and  (max-device-width: 480px) {
+    @content;
+  }
+}
+
 // Media query mixins
 @mixin mediaMd {
   @media screen and (max-width: 768px) {
