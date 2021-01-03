@@ -4,7 +4,7 @@
   "description": "my-responsive-website",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w personal_site/scss/ -o personal_site/resources/css/ --rercursive"
+    "sass": "node-sass -w docs/scss/ -o docs/resources/css/ --rercursive"
   },
   "author": "Gašparec Nikola",
   "license": "MIT",
