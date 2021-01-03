@@ -38,6 +38,15 @@
   }
 }
 
+.flags {
+  position: absolute;
+  z-index: 3;
+  right: 75px;
+  top: 37px;
+  cursor: pointer;
+  @include easeOut;
+}
+
 // Menu overlay
 .menu {
   position: fixed;
