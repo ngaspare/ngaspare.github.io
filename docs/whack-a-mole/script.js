@@ -13,7 +13,6 @@ let countdown;
 function pickRandomHole(holes) {
     const randomHole = Math.floor(Math.random() * holes.length);
     const hole = holes[randomHole];
-    console.log(randomHole);
     if (hole === lastHole) {
         return pickRandomHole(holes);
     }
@@ -60,10 +59,10 @@ startButton.addEventListener('click',startGame);
 
 function whack(e) {
     score++;
-    this.style.backgroundImage = 'url(/img/yoda2.png)';
+    this.style.backgroundImage = 'url("img/yoda2.png")';
     this.style.pointerEvents = 'none';
     setTimeout(() => {
-        this.style.backgroundImage = 'url(img/yoda1.png)';
+        this.style.backgroundImage = 'url("img/yoda1.png")';
         this.style.pointerEvents = 'all';
     }, 800);
     scoreBoard.textContent = score;
